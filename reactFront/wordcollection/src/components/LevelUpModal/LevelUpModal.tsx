@@ -43,7 +43,7 @@ const LevelUpModal = (props: LelevUpModalProps) => {
     if (returnMyDegree(state.level) === returnMyDegree(state.level + 1)) {
       return (
         <p className="paper__levelUp__desc">
-          おめでとう！！これからもまだまだがんばろう
+          おめでとう！！これからもまだまだがんばろう!!
         </p>
       );
     } else {
